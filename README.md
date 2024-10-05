@@ -1,7 +1,7 @@
-# No Phishing ME 
+# Basic Authentication "Brute Force" Simples
 
 Aplicação desenvolvida para estudos.
 
 ## Sobre
 
-Após receber um spam com phishing bancário, identifiquei as rotas da API do site e o payload, e com isso fiz esta aplicação que faz um "DDoS", floodando a API com dados randômicos.
+Presumindo que ja se saiba o nome de usuario e a senha seja 6 caracteres numericos a aplicaçaõ usa classe System.Random do C# para tentar descobrir a senha em um servidor Web com autenticação basica. 
